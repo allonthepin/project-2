@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Жилой комплекс</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="page-header">
@@ -38,24 +39,24 @@
         <span class="visually-hidden">Перейти к контенту</span>
       </a>
       <p class="main-contacts">
-        <span>Наб. реки Фонтанки 10-15</span>
+        <span class="address">Наб. реки Фонтанки 10-15</span>
         <a href="tel:88121234567" class="phone">8 (812) 123-45-67</a>
       </p>
     </section>
-    <section class="advantages">
+    <section class="main-advantages">
       <h2 class="visually-hidden">Преимущества</h2>
       <ul class="advantages-list">
         <li>
-          <span>Рядом исторические парки и скверы</span>
+          <span class="advantage">Рядом исторические парки и скверы</span>
         </li>
         <li>
-          <span>Полностью обустроенный</span>
+          <span class="advantage">Полностью обустроенный</span>
         </li>
         <li>
-          <span>10 фонтанов на территории</span>
+          <span class="advantage">10 фонтанов на территории</span>
         </li>
         <li>
-          <span>6 км велодорожек</span>
+          <span class="advantage">6 км велодорожек</span>
         </li>
       </ul>
     </section>
@@ -65,42 +66,42 @@
         <li>
           <a href="#">
             <img src="img/loft_1.jpg" alt="Лофт">
-            <span>Лофт — 3 этажа</span>
+            <span class="loft">Лофт — 3 этажа</span>
           </a>
         </li>
         <li>
           <a href="#">
           <img src="img/loft_2.jpg" alt="Лофт">
-          <span>Лофт — 2 этажа</span>
+          <span class="loft">Лофт — 2 этажа</span>
         </a>
         </li>
         <li>
           <a href="#">
           <img src="img/loft_3.jpg" alt="Лофт">
-          <span>Лофт — 3 этажа</span>
+          <span class="loft">Лофт — 3 этажа</span>
         </a>
         </li>
         <li>
           <a href="#">
           <img src="img/loft_4.jpg" alt="Лофт">
-          <span>Лофт — 2 этажа</span>
+          <span class="loft">Лофт — 2 этажа</span>
         </a>
         </li>
       </ul>
     </section>
     <section class="call-to-action">
       <h2 class="section-title">Хотите посмотреть?</h2>
-      <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </p>
+      <p class="section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </p>
       <form action="" method="post">
         <label>
-          <input type="text" name="name" placeholder="Ваше имя">
+          <input type="text" name="name" placeholder="Ваше имя" class="form-input">
         </label>
         <label>
-          <input type="tel" name="phone" placeholder="Ваш телефон">
+          <input type="tel" name="phone" placeholder="Ваш телефон" class="form-input">
         </label>
-        <button type="submit">Посмотреть район</button>
+        <button type="submit" class="button">Посмотреть район</button>
       </form>
-      <p>*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
+      <p class="comment">*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
     </section>
     <section class="video">
       <img src="img/video_preview.jpg" alt="Лофт">
@@ -112,15 +113,15 @@
     </section>
     <section class="call-to-action">
       <h2 class="section-title">Есть вопросы?</h2>
-       <p>*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
+       <p class="comment">*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
        <form action="" method="post">
         <label>
-          <input type="text" name="name" placeholder="Ваше имя">
+          <input type="text" name="name" placeholder="Ваше имя" class="form-input">
         </label>
         <label>
-          <input type="tel" name="phone" placeholder="Ваш телефон">
+          <input type="tel" name="phone" placeholder="Ваш телефон" class="form-input">
         </label>
-        <button type="submit">Посмотреть район</button>
+        <button type="submit" class="button">Посмотреть район</button>
       </form>
     </section>
   </main>
@@ -161,12 +162,12 @@
       </li>
     </ul>
     <div class="contacts">
-      <p>Адрес: Наб. реки Фонтанки 10-15</p>
-      <p>Телефон: 
+      <p class="info">Адрес: Наб. реки Фонтанки 10-15</p>
+      <p class="info">Телефон: 
         <a href="tel:88121234567">8 (812) 123-45-67</a>
       </p>
-      <p>Отдел продаж: 10:00 - 20:00</p>
-      <p>E-mail: <a class="info-link" href="mailto:vip@housevip.ru">vip@housevip.ru</a>
+      <p class="info">Отдел продаж: 10:00 - 20:00</p>
+      <p class="info">E-mail: <a class="info-link" href="mailto:vip@housevip.ru" class="info-link">vip@housevip.ru</a>
       </p>
       <ul class="socials">
         <li>
